@@ -279,7 +279,8 @@
       "name": [
         {
           "@language": "en",
-          "@value": "Conflict Resolution
+          "@value": "Conflict Resolution"
+        },
         {
           "@language": "pt",
           "@value": "Outros"
