@@ -372,16 +372,6 @@ class Header extends React.Component {
                 <div className="inner">
                   <div className="row stack-700 stack-gutter-2em">
                     <div className="col one-forth">
-                      <ul className="linedList border-bottom">
-                        <li>
-                          <h3>{translate('menu.info.topical')}</h3>
-                        </li>
-                        <li>
-                          <a className="item" href="/about#newsletter">
-                            {translate('menu.info.topical.newsletter')}
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                     <div className="col one-forth">
                       <ul className="linedList border-bottom">
@@ -389,28 +379,8 @@ class Header extends React.Component {
                           <h3>{translate('menu.info.about')}</h3>
                         </li>
                         <li>
-                          <a className="item" href="/about#the-vision">
-                            {translate('The OER World Map')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/contribute">
-                            {translate('menu.info.about.contribute')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/FAQ">
-                            {translate('menu.info.about.faq')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/about#team">
-                            {translate('menu.info.about.team')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="editorsFAQ">
-                            {translate('menu.info.about.faqeditors')}
+                          <a className="item" href="https://meta.wikimedia.org/wiki/The_Capacity_Exchange_initiative_-_cXc">
+                            {translate('site.name')}
                           </a>
                         </li>
                       </ul>
@@ -421,17 +391,7 @@ class Header extends React.Component {
                           <h3>{translate('menu.info.social')}</h3>
                         </li>
                         <li>
-                          <a className="item" href="https://www.facebook.com/oerworldmap" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.social.facebook')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://twitter.com/oerworldmap" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.social.twitter')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://github.com/hbz/oerworldmap" rel="noopener noreferrer" target="_blank">
+                          <a className="item" href="https://github.com/wmde/oerworldmap" rel="noopener noreferrer" target="_blank">
                             {translate('menu.info.social.github')}
                           </a>
                         </li>
@@ -441,11 +401,6 @@ class Header extends React.Component {
                       <ul className="linedList border-bottom">
                         <li>
                           <h3>{translate('menu.info.legal')}</h3>
-                        </li>
-                        <li>
-                          <a className="item" href="mailto:info@oerworldmap.org">
-                            {translate('menu.info.legal.contact')}
-                          </a>
                         </li>
                         <li>
                           <a className="item" href="/imprint">
