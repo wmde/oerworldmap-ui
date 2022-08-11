@@ -140,19 +140,6 @@ class Header extends React.Component {
               {translate('Capacity Exchange')}
             </h1>
           </Link>
-
-          {(pathname === '/resource/' || pathname.startsWith('/country/')) && (
-            <a
-              href="#tour"
-              className="tour"
-              onClick={(e) => {
-                e.preventDefault()
-                emitter.emit('resetTour')
-              }}
-            >
-              {translate('Take a tour')}
-            </a>
-          )}
         </div>
 
         <button
