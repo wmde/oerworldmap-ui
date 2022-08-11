@@ -75,14 +75,6 @@ const WebPageEdit = ({
               : translate(type)
             }
           </h2>
-          <a
-            href="https://github.com/hbz/oerworldmap/wiki/FAQs-for-OER-World-Map-editors"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="needHelp"
-          >
-            {translate('needHelp')}
-          </a>
         </React.Fragment>
       )}
       <Builder

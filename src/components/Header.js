@@ -319,9 +319,6 @@ class Header extends React.Component {
                       {translate('menu.add.subtitle')}
                       <p dangerouslySetInnerHTML={{ __html: translate('menu.hint') }} />
                     </div>
-                    <Link className="link-grey" rel="noopener noreferrer" target="_blank" href="https://github.com/hbz/oerworldmap/wiki/FAQs-for-OER-World-Map-editors#service-organization-or-project">
-                      {translate('needHelp')}
-                    </Link>
                   </div>
                   <div className="row vertical-guttered stack-700" style={{ justifyContent: 'start' }}>
 
