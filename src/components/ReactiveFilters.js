@@ -226,7 +226,6 @@ const ReactiveFilters = ({
 
     const links = Object.entries({
       geojson: 'application/geo+json',
-      ics: 'text/calendar',
       json: 'application/json',
       csv: 'text/csv',
     }).map(([ext, type]) => {
