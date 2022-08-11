@@ -196,15 +196,6 @@ class Header extends React.Component {
                   <div className="popular">
                     <ul>
                       <li>
-                        <Link className="iconItem" href={'/resource/?filter.about.objectIn.%40type=["LighthouseAction"]&sort=lighthouse_count'}>
-                          <div className="i">
-                            <img className="visible-hover-focus" src="/public/lighthouse_16px_orange.svg" alt="Lighthouse" />
-                            <img className="hidden-hover-focus" src="/public/lighthouse_16px_blue_dark.svg" alt="Lighthouse" />
-                          </div>
-                          {translate('ClientTemplates.app.lighthouses')}
-                        </Link>
-                      </li>
-                      <li>
                         <Link className="iconItem" href={'/resource/?filter.about.objectIn.%40type=["LikeAction"]&sort=like_count'}>
                           <i aria-hidden="true" className="fa fa-thumbs-up" />
                           {translate('menu.most_liked')}
@@ -227,12 +218,6 @@ class Header extends React.Component {
                           <i className="fa fa-trophy" />
                           {translate('ClientTemplates.app.countryChampions')}
                         </Link>
-                      </li>
-                      <li>
-                        <a className="iconItem" href="/oerpolicies">
-                          <i className="fa fa-balance-scale" />
-                          {translate('ClientTemplates.app.oerpolicies')}
-                        </a>
                       </li>
                     </ul>
 
@@ -394,11 +379,6 @@ class Header extends React.Component {
                         <li>
                           <a className="item" href="/about#newsletter">
                             {translate('menu.info.topical.newsletter')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://oerworldmap.wordpress.com/" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.topical.blog')}
                           </a>
                         </li>
                       </ul>
