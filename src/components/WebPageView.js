@@ -365,23 +365,6 @@ const WebPageView = ({
               </Block>
             )}
 
-            {['primarySector', 'secondarySector'].map(prop => (
-              about[prop] && (
-                <Block
-                  key={prop}
-                  className="list"
-                  title={translate(`${about['@type']}.${prop}`)}
-                  addButton={expose('editEntry', user, about) && `.List.${prop}`}
-                >
-                  <ConceptTree
-                    concepts={require('../json/sectors.json').hasTopConcept}
-                    include={about[prop].map(concept => concept['@id'])}
-                    className="ItemList"
-                    linkTemplate={`/resource/?filter.about.${prop}.@id=["{@id}"]`}
-                  />
-                </Block>
-              )))}
-
             {about.isFundedBy && about.isFundedBy.some(grant => grant.isAwardedBy) && (
               <Block
                 collapsible={!expandAll
@@ -550,30 +533,8 @@ const WebPageView = ({
               </Block>
             )}
 
-            {
-              ['participant', 'participantIn'].map(
-                prop => (
-                  about[prop] && (
-                    <Block
-                      key={prop}
-                      collapsible={!expandAll && about[prop].length > 3}
-                      collapsibleType="show-all"
-                      className="list"
-                      title={translate(`${about['@type']}.${prop}`)}
-                      addButton={expose('editEntry', user, about) && `.List.${prop}`}
-                    >
-                      <ItemList
-                        listItems={about[prop]
-                          .sort((a, b) => translate(a.name) > translate(b.name))}
-                        className="prominent"
-                      />
-                    </Block>
-                  )),
-              )
-            }
-
-            {['member', 'memberOf', 'affiliation', 'affiliate', 'organizer',
-              'organizerFor', 'performer', 'performerIn', 'attendee', 'attends', 'created', 'creator', 'publication',
+            {['member', 'memberOf', 'affiliation', 'affiliate',
+              'created', 'creator',
               'publisher', 'manufacturer', 'manufactured', 'mentions', 'mentionedIn', 'instrument', 'instrumentIn',
               'isRelatedTo', 'isBasedOn', 'isBasisFor', 'item'].map(prop => (
               about[prop] && (
@@ -592,12 +553,6 @@ const WebPageView = ({
                   />
                 </Block>
               )))}
-
-            {lighthouses.length > 0 && about['@id'] && (
-              <Block id="lighthouses" title={translate('ResourceIndex.read.lighthouses.title')}>
-                <Lighthouses lighthouses={lighthouses} about={about} />
-              </Block>
-            )}
 
             {about['@id'] && about['@type'] !== 'Person' && (
               <Block title={translate('ResourceIndex.read.comments')}>
@@ -793,17 +748,6 @@ const WebPageView = ({
           {about.spatial && (
             <Block title={translate(`${about['@type']}.spatial`)}>
               {translate(about.spatial.name)}
-            </Block>
-          )}
-
-          {about.activityField && (
-            <Block className="list" title={translate(`${about['@type']}.activityField`)}>
-              <ConceptTree
-                concepts={require('../json/activities.json').hasTopConcept}
-                include={about.activityField.map(concept => concept['@id'])}
-                className="ItemList recursive"
-                linkTemplate={'/resource/?filter.about.activityField.@id=["{@id}"]'}
-              />
             </Block>
           )}
 
