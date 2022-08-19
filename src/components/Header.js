@@ -385,18 +385,6 @@ class Header extends React.Component {
                     <div className="col one-forth">
                       <ul className="linedList border-bottom">
                         <li>
-                          <h3>{translate('menu.info.social')}</h3>
-                        </li>
-                        <li>
-                          <a className="item" href="https://github.com/wmde/oerworldmap" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.social.github')}
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col one-forth">
-                      <ul className="linedList border-bottom">
-                        <li>
                           <h3>{translate('menu.info.legal')}</h3>
                         </li>
                         <li>
@@ -405,6 +393,8 @@ class Header extends React.Component {
                           </a>
                         </li>
                       </ul>
+                    </div>
+                    <div className="col one-forth">
                     </div>
                   </div>
                 </div>
@@ -486,15 +476,6 @@ class Header extends React.Component {
                             <Link className="item" href={`/resource/?filter.about.objectIn.agent.@id=["${user.id}"]&filter.about.objectIn.%40type=["LikeAction"]`}>
                               <i aria-hidden="true" className="fa fa-thumbs-up" />
                               <span>{translate('menu.me.likes')}</span>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link className="item" href={`/resource/?filter.about.objectIn.agent.@id=["${user.id}"]&filter.about.objectIn.%40type=["LighthouseAction"]`}>
-                              <div className="i">
-                                <img className="visible-hover-focus" src="/public/lighthouse_16px_orange.svg" alt="Lighthouse" />
-                                <img className="hidden-hover-focus" src="/public/lighthouse_16px_blue_dark.svg" alt="Lighthouse" />
-                              </div>
-                              <span>{translate('menu.me.lighthouses')}</span>
                             </Link>
                           </li>
                           <li>
