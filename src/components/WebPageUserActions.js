@@ -92,16 +92,6 @@ const WebPageUserActions = ({
         </div>
       )}
 
-      {['Organization', 'Action', 'Service', 'Product', 'Event', 'Article', 'WebPage', 'Policy'].includes(about['@type']) && (
-        <div className="action">
-          <a href="#addLighthouse" className={`btn ${lighthouse['@id'] ? 'active' : ''}`}>
-            <img className="i blueLighthouse" src="/public/lighthouse_16px_blue.svg" alt="Lighthouse" />
-            <img className="i whiteLighthouse" src="/public/lighthouse_16px_white.svg" alt="Lighthouse" />
-            {translate('Lighthouse')}
-          </a>
-        </div>
-      )}
-
       {view === 'addLighthouse' && (
         <FullModal className="Lighthouse" closeLink={`/resource/${about['@id']}`}>
           <Form

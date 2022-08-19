@@ -196,15 +196,6 @@ class Header extends React.Component {
                   <div className="popular">
                     <ul>
                       <li>
-                        <Link className="iconItem" href={'/resource/?filter.about.objectIn.%40type=["LighthouseAction"]&sort=lighthouse_count'}>
-                          <div className="i">
-                            <img className="visible-hover-focus" src="/public/lighthouse_16px_orange.svg" alt="Lighthouse" />
-                            <img className="hidden-hover-focus" src="/public/lighthouse_16px_blue_dark.svg" alt="Lighthouse" />
-                          </div>
-                          {translate('ClientTemplates.app.lighthouses')}
-                        </Link>
-                      </li>
-                      <li>
                         <Link className="iconItem" href={'/resource/?filter.about.objectIn.%40type=["LikeAction"]&sort=like_count'}>
                           <i aria-hidden="true" className="fa fa-thumbs-up" />
                           {translate('menu.most_liked')}
@@ -227,12 +218,6 @@ class Header extends React.Component {
                           <i className="fa fa-trophy" />
                           {translate('ClientTemplates.app.countryChampions')}
                         </Link>
-                      </li>
-                      <li>
-                        <a className="iconItem" href="/oerpolicies">
-                          <i className="fa fa-balance-scale" />
-                          {translate('ClientTemplates.app.oerpolicies')}
-                        </a>
                       </li>
                     </ul>
 
@@ -334,9 +319,6 @@ class Header extends React.Component {
                       {translate('menu.add.subtitle')}
                       <p dangerouslySetInnerHTML={{ __html: translate('menu.hint') }} />
                     </div>
-                    <Link className="link-grey" rel="noopener noreferrer" target="_blank" href="https://github.com/hbz/oerworldmap/wiki/FAQs-for-OER-World-Map-editors#service-organization-or-project">
-                      {translate('needHelp')}
-                    </Link>
                   </div>
                   <div className="row vertical-guttered stack-700" style={{ justifyContent: 'start' }}>
 
@@ -387,21 +369,6 @@ class Header extends React.Component {
                 <div className="inner">
                   <div className="row stack-700 stack-gutter-2em">
                     <div className="col one-forth">
-                      <ul className="linedList border-bottom">
-                        <li>
-                          <h3>{translate('menu.info.topical')}</h3>
-                        </li>
-                        <li>
-                          <a className="item" href="/about#newsletter">
-                            {translate('menu.info.topical.newsletter')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://oerworldmap.wordpress.com/" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.topical.blog')}
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                     <div className="col one-forth">
                       <ul className="linedList border-bottom">
@@ -409,28 +376,8 @@ class Header extends React.Component {
                           <h3>{translate('menu.info.about')}</h3>
                         </li>
                         <li>
-                          <a className="item" href="/about#the-vision">
-                            {translate('The OER World Map')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/contribute">
-                            {translate('menu.info.about.contribute')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/FAQ">
-                            {translate('menu.info.about.faq')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="/about#team">
-                            {translate('menu.info.about.team')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="editorsFAQ">
-                            {translate('menu.info.about.faqeditors')}
+                          <a className="item" href="https://meta.wikimedia.org/wiki/The_Capacity_Exchange_initiative_-_cXc">
+                            {translate('site.name')}
                           </a>
                         </li>
                       </ul>
@@ -441,17 +388,7 @@ class Header extends React.Component {
                           <h3>{translate('menu.info.social')}</h3>
                         </li>
                         <li>
-                          <a className="item" href="https://www.facebook.com/oerworldmap" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.social.facebook')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://twitter.com/oerworldmap" rel="noopener noreferrer" target="_blank">
-                            {translate('menu.info.social.twitter')}
-                          </a>
-                        </li>
-                        <li>
-                          <a className="item" href="https://github.com/hbz/oerworldmap" rel="noopener noreferrer" target="_blank">
+                          <a className="item" href="https://github.com/wmde/oerworldmap" rel="noopener noreferrer" target="_blank">
                             {translate('menu.info.social.github')}
                           </a>
                         </li>
@@ -461,11 +398,6 @@ class Header extends React.Component {
                       <ul className="linedList border-bottom">
                         <li>
                           <h3>{translate('menu.info.legal')}</h3>
-                        </li>
-                        <li>
-                          <a className="item" href="mailto:info@oerworldmap.org">
-                            {translate('menu.info.legal.contact')}
-                          </a>
                         </li>
                         <li>
                           <a className="item" href="/imprint">
