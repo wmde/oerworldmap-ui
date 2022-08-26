@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/services.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#mentoring",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#mentoring",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#coaching",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#coaching",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#tutoring",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#tutoring",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#consulting",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#consulting",
       "@type": "Concept",
       "name": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#trainer",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#trainer",
       "@type": "Concept",
       "name": [
         {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#trainthetrainer",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#trainthetrainer",
       "@type": "Concept",
       "name": [
         {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#evaluation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#evaluation",
       "@type": "Concept",
       "name": [
         {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#assesment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#assesment",
       "@type": "Concept",
       "name": [
         {
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#monitoring",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#monitoring",
       "@type": "Concept",
       "name": [
         {
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/services.json#translation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#translation",
       "@type": "Concept",
       "name": [
         {
@@ -184,7 +184,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#simultaneousinterpretation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#simultaneousinterpretation",
       "@type": "Concept",
       "name": [
         {
@@ -202,7 +202,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#editing",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#editing",
       "@type": "Concept",
       "name": [
         {
@@ -220,7 +220,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#proofreading",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#proofreading",
       "@type": "Concept",
       "name": [
         {
@@ -238,7 +238,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#research",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#research",
       "@type": "Concept",
       "name": [
         {
@@ -256,7 +256,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#legalreview",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#legalreview",
       "@type": "Concept",
       "name": [
         {
@@ -274,7 +274,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#prcommunications",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#prcommunications",
       "@type": "Concept",
       "name": [
         {
@@ -292,7 +292,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#proposalwriting",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#proposalwriting",
       "@type": "Concept",
       "name": [
         {
@@ -310,7 +310,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#webdesign",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#webdesign",
       "@type": "Concept",
       "name": [
         {
@@ -328,7 +328,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#softwaredevelopment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#softwaredevelopment",
       "@type": "Concept",
       "name": [
         {
@@ -346,7 +346,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#officemanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#officemanagement",
       "@type": "Concept",
       "name": [
         {
@@ -364,7 +364,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/services.json#facilitation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/services.json#facilitation",
       "@type": "Concept",
       "name": [
         {

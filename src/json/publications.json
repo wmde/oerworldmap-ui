@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/publications.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#oer",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#oer",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#article",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#article",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#peerReviewedArticle",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#peerReviewedArticle",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#report",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#report",
       "@type": "Concept",
       "name": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#projectDocument",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#projectDocument",
       "@type": "Concept",
       "name": [
         {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#interview",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#interview",
       "@type": "Concept",
       "name": [
         {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#book",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#book",
       "@type": "Concept",
       "name": [
         {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#presentation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#presentation",
       "@type": "Concept",
       "name": [
         {
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/publications.json#other",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/publications.json#other",
       "@type": "Concept",
       "name": [
         {

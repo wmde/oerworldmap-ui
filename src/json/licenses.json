@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/licenses.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#cc0",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#cc0",
       "@type": "Concept",
       "name": [
         {
@@ -28,14 +28,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#cc-by",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#cc-by",
       "@type": "Concept",
       "name": [
         {
@@ -59,14 +59,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#cc-by-sa",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#cc-by-sa",
       "@type": "Concept",
       "name": [
         {
@@ -90,14 +90,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#by-nc",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#by-nc",
       "@type": "Concept",
       "name": [
         {
@@ -121,14 +121,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#by-nc-sa",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#by-nc-sa",
       "@type": "Concept",
       "name": [
         {
@@ -152,14 +152,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#by-nd",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#by-nd",
       "@type": "Concept",
       "name": [
         {
@@ -183,14 +183,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#by-nc-nd",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#by-nc-nd",
       "@type": "Concept",
       "name": [
         {
@@ -214,14 +214,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-pd",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-pd",
       "@type": "Concept",
       "name": [
         {
@@ -245,14 +245,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/icons/pd.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-by",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-by",
       "@type": "Concept",
       "name": [
         {
@@ -276,14 +276,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/icons/by.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-sa",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-sa",
       "@type": "Concept",
       "name": [
         {
@@ -307,14 +307,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/icons/sa.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-nc",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-nc",
       "@type": "Concept",
       "name": [
         {
@@ -338,14 +338,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/icons/nc.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-nd",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-nd",
       "@type": "Concept",
       "name": [
         {
@@ -369,14 +369,14 @@
       ],
       "image": "http://mirrors.creativecommons.org/presskit/icons/nd.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#copyright",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#copyright",
       "@type": "Concept",
       "name": [
         {
@@ -400,14 +400,14 @@
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/197px-Copyright.svg.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#other-open",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#other-open",
       "@type": "Concept",
       "name": [
         {
@@ -431,14 +431,14 @@
       ],
       "image": "https://cdn0.iconfinder.com/data/icons/glyphpack/34/question-circle-64.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/licenses.json#unspecified",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json#unspecified",
       "@type": "Concept",
       "name": [
         {
@@ -462,10 +462,10 @@
       ],
       "image": "https://cdn0.iconfinder.com/data/icons/glyphpack/34/question-circle-64.png",
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/licenses.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/licenses.json"
       }
     }
   ]

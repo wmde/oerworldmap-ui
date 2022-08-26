@@ -31,7 +31,7 @@ const locales = [LANG]
 const emitter = mitt()
 
 const baseURL = ENVIRONMENT === 'development'
-  ? 'https://oerworldmap.org/'
+  ? 'https://capacity-exchange.wmcloud.org/'
   : '/'
 
 const navigate = (url) => {

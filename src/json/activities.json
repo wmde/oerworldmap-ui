@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/activities.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#assessment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#assessment",
       "@type": "Concept",
       "name": [
         {
@@ -21,14 +21,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#authoring",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#authoring",
       "@type": "Concept",
       "name": [
         {
@@ -45,14 +45,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#businessModels",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#businessModels",
       "@type": "Concept",
       "name": [
         {
@@ -69,14 +69,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#communityDevelopment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#communityDevelopment",
       "@type": "Concept",
       "name": [
         {
@@ -93,14 +93,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#development",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#development",
       "@type": "Concept",
       "name": [
         {
@@ -117,14 +117,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#fundraising",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#fundraising",
       "@type": "Concept",
       "name": [
         {
@@ -141,14 +141,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#instructionalDesign",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#instructionalDesign",
       "@type": "Concept",
       "name": [
         {
@@ -165,14 +165,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#knowledgeManagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#knowledgeManagement",
       "@type": "Concept",
       "name": [
         {
@@ -189,14 +189,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#legal",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#legal",
       "@type": "Concept",
       "name": [
         {
@@ -213,14 +213,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#copyright",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#copyright",
       "@type": "Concept",
       "name": [
         {
@@ -237,14 +237,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#lifelongLearning",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#lifelongLearning",
       "@type": "Concept",
       "name": [
         {
@@ -261,14 +261,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#management",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#management",
       "@type": "Concept",
       "name": [
         {
@@ -285,14 +285,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#oep",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#oep",
       "@type": "Concept",
       "name": [
         {
@@ -309,14 +309,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#advocacy",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#advocacy",
       "@type": "Concept",
       "name": [
         {
@@ -333,14 +333,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#policy",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#policy",
       "@type": "Concept",
       "name": [
         {
@@ -357,14 +357,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#professionalDevelopment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#professionalDevelopment",
       "@type": "Concept",
       "name": [
         {
@@ -381,14 +381,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#publishing",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#publishing",
       "@type": "Concept",
       "name": [
         {
@@ -405,14 +405,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#research",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#research",
       "@type": "Concept",
       "name": [
         {
@@ -429,14 +429,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#qa",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#qa",
       "@type": "Concept",
       "name": [
         {
@@ -453,14 +453,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#teachingLearning",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#teachingLearning",
       "@type": "Concept",
       "name": [
         {
@@ -477,14 +477,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#technology",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#technology",
       "@type": "Concept",
       "name": [
         {
@@ -501,14 +501,14 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/activities.json#accessibility",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json#accessibility",
       "@type": "Concept",
       "name": [
         {
@@ -525,10 +525,10 @@
         }
       ],
       "topConceptOf": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       },
       "inScheme": {
-        "@id": "https://oerworldmap.org/assets/json/activities.json"
+        "@id": "https://capacity-exchange.wmcloud.org/assets/json/activities.json"
       }
     }
   ]

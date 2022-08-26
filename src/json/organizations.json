@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/organizations.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/organizations.json#chapter",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json#chapter",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/organizations.json#hub",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json#hub",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/organizations.json#thematicorganisation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json#thematicorganisation",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/organizations.json#usergroup",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json#usergroup",
       "@type": "Concept",
       "name": [
         {
@@ -75,7 +75,7 @@
         }
       ]
     },{
-      "@id": "https://oerworldmap.org/assets/json/organizations.json#preapproval",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/organizations.json#preapproval",
       "@type": "Concept",
       "name": [
         {

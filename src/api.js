@@ -91,43 +91,43 @@ class Api {
       return Promise.resolve({
         member: require('./json/isced-1997.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/licenses.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/licenses.json':
       return Promise.resolve({
         member: require('./json/licenses.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/sectors.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/sectors.json':
       return Promise.resolve({
         member: require('./json/sectors.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/persons.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/persons.json':
       return Promise.resolve({
         member: require('./json/persons.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/services.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/services.json':
       return Promise.resolve({
         member: require('./json/services.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/publications.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/publications.json':
       return Promise.resolve({
         member: require('./json/publications.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/organizations.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/organizations.json':
       return Promise.resolve({
         member: require('./json/organizations.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/projects.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/projects.json':
       return Promise.resolve({
         member: require('./json/projects.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/activities.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/activities.json':
       return Promise.resolve({
         member: require('./json/activities.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/policies.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/policies.json':
       return Promise.resolve({
         member: require('./json/policies.json').hasTopConcept.map(entry => ({ about: entry })),
       })
-    case 'https://oerworldmap.org/assets/json/policyTypes.json':
+    case 'https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json':
       return Promise.resolve({
         member: require('./json/policyTypes.json').hasTopConcept.map(entry => ({ about: entry })),
       })

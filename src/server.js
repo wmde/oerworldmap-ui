@@ -125,8 +125,9 @@ server.use(/^\/(oerworldmap-ui|contribute|about|FAQ|editorsFAQ|imprint|api|oerpo
   })
 )
 
-server.use( /^\/($|assets)/,
+server.use( /^\/$/,
   createProxyMiddleware({
+    // FIXME: same as above, "assets" probably redundant
     target: pagesConfig.internalUrl,
     changeOrigin: true,
   })

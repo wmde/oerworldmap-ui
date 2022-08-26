@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/projects.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/projects.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/projects.json#program",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/projects.json#program",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/projects.json#project",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/projects.json#project",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/projects.json#initiative",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/projects.json#initiative",
       "@type": "Concept",
       "name": [
         {

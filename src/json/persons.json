@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/persons.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#wikipediaediting",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#wikipediaediting",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#wikimediacommons",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#wikimediacommons",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#wikidata",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#wikidata",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#wikimediasetups",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#wikimediasetups",
       "@type": "Concept",
       "name": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#organisingevents",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#organisingevents",
       "@type": "Concept",
       "name": [
         {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#policymaker",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#policymaker",
       "@type": "Concept",
       "name": [
         {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#projectmanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#projectmanagement",
       "@type": "Concept",
       "name": [
         {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#hrmanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#hrmanagement",
       "@type": "Concept",
       "name": [
         {
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#financialmanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#financialmanagement",
       "@type": "Concept",
       "name": [
         {
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#organisationaldevelopment",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#organisationaldevelopment",
       "@type": "Concept",
       "name": [
         {
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#fundraising",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#fundraising",
       "@type": "Concept",
       "name": [
         {
@@ -202,7 +202,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#governance",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#governance",
       "@type": "Concept",
       "name": [
         {
@@ -220,7 +220,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#legal",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#legal",
       "@type": "Concept",
       "name": [
         {
@@ -238,7 +238,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#partnerships",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#partnerships",
       "@type": "Concept",
       "name": [
         {
@@ -256,7 +256,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#ethics",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#ethics",
       "@type": "Concept",
       "name": [
         {
@@ -274,7 +274,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#conflictresolution",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#conflictresolution",
       "@type": "Concept",
       "name": [
         {
@@ -292,7 +292,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#diversityequityinclusion",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#diversityequityinclusion",
       "@type": "Concept",
       "name": [
         {
@@ -310,7 +310,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#privacysecuritygdpr",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#privacysecuritygdpr",
       "@type": "Concept",
       "name": [
         {
@@ -328,7 +328,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#advocacypolicylobbying",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#advocacypolicylobbying",
       "@type": "Concept",
       "name": [
         {
@@ -346,7 +346,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#prandbranding",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#prandbranding",
       "@type": "Concept",
       "name": [
         {
@@ -364,7 +364,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#facilitation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#facilitation",
       "@type": "Concept",
       "name": [
         {
@@ -382,7 +382,7 @@
       ]
     },
 {
-      "@id": "https://oerworldmap.org/assets/json/persons.json#volunteerprogrammanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#volunteerprogrammanagement",
       "@type": "Concept",
       "name": [
         {
@@ -399,7 +399,7 @@
         }
       ]
     },{
-      "@id": "https://oerworldmap.org/assets/json/persons.json#eventmanagement",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/persons.json#eventmanagement",
       "@type": "Concept",
       "name": [
         {

@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/policyTypes.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/policyTypes.json#legislation",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json#legislation",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policyTypes.json#policyDocument",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json#policyDocument",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policyTypes.json#strategyDocument",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json#strategyDocument",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policyTypes.json#callForTender",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json#callForTender",
       "@type": "Concept",
       "name": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policyTypes.json#other",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policyTypes.json#other",
       "@type": "Concept",
       "name": [
         {

@@ -1,10 +1,10 @@
 {
-  "@context": "https://oerworldmap.org/assets/json/context.json",
-  "@id": "https://oerworldmap.org/assets/json/policies.json",
+  "@context": "https://capacity-exchange.wmcloud.org/assets/json/context.json",
+  "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json",
   "@type": "ConceptScheme",
   "hasTopConcept": [
     {
-      "@id": "https://oerworldmap.org/assets/json/policies.json#dedicated",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json#dedicated",
       "@type": "Concept",
       "name": [
         {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policies.json#ict",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json#ict",
       "@type": "Concept",
       "name": [
         {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policies.json#educational",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json#educational",
       "@type": "Concept",
       "name": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policies.json#openness",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json#openness",
       "@type": "Concept",
       "name": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "@id": "https://oerworldmap.org/assets/json/policies.json#labourmarket",
+      "@id": "https://capacity-exchange.wmcloud.org/assets/json/policies.json#labourmarket",
       "@type": "Concept",
       "name": [
         {

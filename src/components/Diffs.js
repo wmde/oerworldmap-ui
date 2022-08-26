@@ -141,7 +141,7 @@ const Diffs = ({
 
       </div>
       <div className="footer">
-        <a href="https://beta.oerworldmap.org/imprint">{translate('Diffs.terms')}</a>
+        <a href="https://capacity-exchange.wmcloud.org/imprint">{translate('Diffs.terms')}</a>
       </div>
     </div>
   )
