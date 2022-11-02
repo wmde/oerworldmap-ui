@@ -181,6 +181,15 @@ server.get('/logout', (req, res) => {
   res.redirect(req.query.continue || '/')
 })
 
+server.get('/user/profile', (req, res, next) => {
+  // TODO: Any unauthorized URL should cause an auth redirect.
+  if (!req.session.username) {
+    res.redirect(oauth.getAuthRedirect())
+  } else {
+	next()
+  }
+})
+
 server.get('/stats', async (req, res) => {
   const { translate } = i18n(req.locales, req.phrases)
   const {
