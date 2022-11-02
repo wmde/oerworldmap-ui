@@ -140,11 +140,24 @@ server.use('/elastic', createProxyMiddleware({
 }))
 
 server.use(createProxyMiddleware(
-  (_path, req) => { return !req.accepts('text/html') },
+  (path, req) =>
+	// Proxy JSON requests to the API
+	(
+		// FIXME: Should be testing for req.accepts('application/json'), but this
+		// always returns true!
+		(!req.accepts('html') || req.query.ext)
+		&& path.match('^(/resource|/user|/aggregation|/feed|/country|/log|/index|/sparql|/label|/reconcile|/activity)')
+	)
+
+	// Proxy non-html resource extensions to the API
+	|| path.match('^/resource/.*[.].+')
+
+	// Proxy API-only URLs
+	|| path.match('^(/sparql|/reconcile|/label|/user/newsletter)'),
   {
     // FIXME: format using URL
     target: `${apiConfig.scheme}://${apiConfig.host}:${apiConfig.port}`,
-    changeOrigin: true,
+    changeOrigin: true
   }
 ))
 
