@@ -627,7 +627,7 @@ const WebPageView = ({
               {about.additionalType.map(type => (
                 <React.Fragment key={type['@id']}>
                   <Link href={urlTemplate.parse('/resource/?filter.about.additionalType.@id=["{@id}"]').expand(type)}>
-                    {translate(type.name)}
+                    {translate(type.name || type['@id'])}
                   </Link>
                   <br />
                 </React.Fragment>

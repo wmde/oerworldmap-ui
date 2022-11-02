@@ -30,7 +30,7 @@ const ResourcePreview = ({ translate, about }) => (
                 <React.Fragment key={type['@id']}>
                   {!!i && ', '}
                   <Link href={urlTemplate.parse('/resource/?filter.about.additionalType.@id={@id}').expand(type)}>
-                    {translate(type.name)}
+                    {translate(type.name || type['@id'])}
                   </Link>
                 </React.Fragment>
               ))}
